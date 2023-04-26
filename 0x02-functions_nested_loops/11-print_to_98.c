@@ -4,7 +4,7 @@
 /**
  * print_to_98 - prints till 98
  *
- * n: from this number
+ * @n: from this number
  *
  * Return: to 98;
  *
