@@ -1,5 +1,5 @@
-#include "holberton.h"
-11;rgb:0000/0000/0000#include <stdio.h>
+#include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
