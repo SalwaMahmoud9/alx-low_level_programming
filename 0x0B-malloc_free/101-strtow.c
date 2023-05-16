@@ -49,9 +49,9 @@ char **strtow(char *str)
 
 	total_words = number(str);
 	words = malloc((total_words + 1) * sizeof(char *));
-	if (str == 0 || *str == 0 || total_words == 0 || words == 0)
+	if (str == 0 || *str == 0 || words == 0 || total_words == 0)
 		return (NULL);
-	for (; *str != '\0' &&  b < total_words)
+	for (; *str != '\0' &&  b < total_words;)
 	{
 		if (*str == ' ')
 			str++;
