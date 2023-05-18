@@ -1,5 +1,7 @@
 #ifndef _main_H_
 #define _main_H_
+
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 int *array_range(int min, int max);
 /**
  * _calloc - calloc function
