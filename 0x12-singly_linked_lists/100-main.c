@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - main
+ * main - check the code
  *
- * Return: 0
+ * Return: Always 0.
  */
 int main(void)
 {
