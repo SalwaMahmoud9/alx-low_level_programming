@@ -4,7 +4,7 @@
 #include "lists.h"
 /**
  * free_list - free list
- * @head: head 
+ * @head: head
  */
 void free_list(list_t *head)
 {
