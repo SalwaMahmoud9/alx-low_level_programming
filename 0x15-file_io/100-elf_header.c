@@ -177,7 +177,7 @@ void get_type(Elf64_Ehdr *ehdr)
 }
 
 /**
- * get_entry - determine entry point function address
+ * get_entry - get entry
  * @ehdr: pointer to struct of ELF header features
  */
 void get_entry(Elf64_Ehdr *ehdr)
@@ -187,7 +187,7 @@ void get_entry(Elf64_Ehdr *ehdr)
 }
 
 /**
- * main - display information contained in ELF file header
+ * main - main
  * @argc: number of arguments
  * @argv: array of string arguments
  *
