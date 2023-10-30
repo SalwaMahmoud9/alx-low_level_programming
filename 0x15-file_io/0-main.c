@@ -10,7 +10,7 @@
 int main(int ac, char **av)
 {
     ssize_t n;
-    
+
     n = read_textfile(av[1], 114);
     printf("\n(printed chars: %li)\n", n);
     n = read_textfile(av[1], 1024);
