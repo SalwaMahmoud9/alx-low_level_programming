@@ -195,9 +195,7 @@ void get_entry(Elf64_Ehdr *ehdr)
  */
 int main(int argc, char *argv[])
 {
-	int descriptor;
-	ssize_t r;
-	Elf64_Ehdr *helf;
+	int descriptor; ssize_t r; Elf64_Ehdr *helf;
 
 	if (argc != 2)
 	{
