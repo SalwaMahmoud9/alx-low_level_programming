@@ -5,13 +5,6 @@
  * @letters: letters in file
  * Return: printed
  */
-#include "main.h"
-/**
- * read_textfile - read text file
- * @filename: file name
- * @letters: letters in file
- * Return: printed
- */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	char *buff;
