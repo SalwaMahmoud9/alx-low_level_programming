@@ -13,7 +13,7 @@ int main(int ac, char **av)
 
     if (ac != 2)
     {
-        printf(2, "Usage: %s filename\n", av[0]);
+        dprintf(2, "Usage: %s filename\n", av[0]);
         exit(1);
     }
     n = read_textfile(av[1], 114);
