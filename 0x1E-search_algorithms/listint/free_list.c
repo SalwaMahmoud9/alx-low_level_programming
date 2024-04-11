@@ -2,9 +2,9 @@
 #include "../search_algos.h"
 
 /**
- * free_list - Deallocates a singly linked list
+ * free_list - free_list
  *
- * @list: Pointer to the linked list to be freed
+ * @list: void
  */
 void free_list(listint_t *list)
 {

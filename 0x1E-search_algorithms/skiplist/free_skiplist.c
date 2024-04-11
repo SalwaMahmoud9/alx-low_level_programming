@@ -2,9 +2,9 @@
 #include "../search_algos.h"
 
 /**
- * free_skiplist - Deallocates a singly linked list
+ * free_skiplist - free_skiplistt
  *
- * @list: Pointer to the linked list to be freed
+ * @list: list
  */
 void free_skiplist(skiplist_t *list)
 {

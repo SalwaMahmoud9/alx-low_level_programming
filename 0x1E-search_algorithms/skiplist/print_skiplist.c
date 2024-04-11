@@ -3,9 +3,9 @@
 #include "../search_algos.h"
 
 /**
- * print_skiplist - dump the content of a skiplist_t
+ * print_skiplist - print_skiplist
  *
- * @list: Pointer to the head of the list
+ * @list: list
  *
  * Return: void
  */

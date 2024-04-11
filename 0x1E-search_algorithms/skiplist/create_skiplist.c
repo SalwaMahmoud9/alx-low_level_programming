@@ -5,10 +5,10 @@
 void free_skiplist(skiplist_t *list);
 
 /**
- * init_express - Initializes the express lane of the linked list
+ * init_express - init_express
  *
- * @list: Pointer to the head node of the list
- * @size: Number of nodes in the list
+ * @list: list
+ * @size: size
  */
 void init_express(skiplist_t *list, size_t size)
 {
@@ -27,12 +27,12 @@ void init_express(skiplist_t *list, size_t size)
 }
 
 /**
- * create_skiplist - Create a single linked list
+ * create_skiplist - create_skiplist
  *
- * @array: Pointer to the array used to fill the list
- * @size: Size of the array
+ * @array: array
+ * @size: size
  *
- * Return: A pointer to the head of the created list (NULL on failure)
+ * Return: list
  */
 skiplist_t *create_skiplist(int *array, size_t size)
 {

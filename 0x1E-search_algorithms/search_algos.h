@@ -5,14 +5,11 @@
 #include <stdio.h>
 
 /**
- * struct listint_s - singly linked list
+ * struct listint_s - listint_s
  *
- * @n: Integer
- * @index: Index of the node in the list
- * @next: Pointer to the next node
- *
- * Description: singly linked list node structure
- * for ALX project
+ * @n: int
+ * @index: index
+ * @next: next node
  */
 typedef struct listint_s
 {
@@ -22,15 +19,12 @@ typedef struct listint_s
 } listint_t;
 
 /**
- * struct skiplist_s - Singly linked list with an express lane
+ * struct skiplist_s - skiplist_s
  *
- * @n: Integer
- * @index: Index of the node in the list
- * @next: Pointer to the next node
- * @express: Pointer to the next node in the express lane
- *
- * Description: singly linked list node structure with an express lane
- * for Holberton project
+ * @n: int
+ * @index: index
+ * @next: next node
+ * @express: pointer
  */
 typedef struct skiplist_s
 {
